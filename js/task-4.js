@@ -12,6 +12,8 @@ if (input === null) {
   console.log(
     `Вы купили ${input} дроидов, на счету осталось ${total} кредитов.`,
   );
+} else if (input !== Number) {
+  console.log('Введено не число');
 } else {
   console.log('Недостаточно средств на счету!');
 }
